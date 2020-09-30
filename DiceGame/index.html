@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="message">Welcome</h1>
+        <div class="players">
+            <div id="player1">
+                <h1>Score:
+                    <span id="player1Scoreboard">0</span>
+                </h1>
+                <div id="player1Dice" class="dice active">-</div>
+            </div>
+            <div>
+                <h1>Score:
+                    <span id="player2Scoreboard">0</span>
+                </h1>
+                <div id="player2Dice" class="dice">-</div>
+            </div>
+
+        </div>
+        <button id="rollbtn">Roll Dice🎲</button>
+        <button id="resetbtn">Reset Game🔁</button>
+    </div>
+    <div id="landingBox">
+        <form id="detailForm">
+            <fieldset>
+                <legend id="gameName">Dice Game</legend>
+                <label for="playerOne">Player 1</label>
+                <input type="text" id="playerOne" name="playerOne" placeholder="John"><br>
+                <label for="playerTwo">Player 2</label>
+                <input type="text" id="playerTwo" name="playerTwo" placeholder="Jack"><br>
+                <button type="submit" id="startGame">Start Game</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+body {
+    font-size: 18px;
+    font-family: cursive;
+}
+
+#landingBox {
+    display: flex;
+    justify-content: center;
+    background-color: #ADEFD1FF;
+    border: solid #00203FFF 5px;
+    border-radius: 5%;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#detailForm {
+    color: rgb(13, 80, 146);
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: -1px 1px 10px 5px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+
+#startGame {
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    font-weight: 900;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#startGame:hover,
+#startGame:focus {
+    background-color: #ADEFD1FF;
+    color: #00203FFF;
+    border: solid #00203FFF 3px;
+}
+
+#container {
+    border: solid #333D79FF 5px;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px 50px;
+    text-align: center;
+    border-radius: 10%;
+    background-color: #FAEBEFFF;
+}
+
+.players {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dice {
+    border: none;
+    background-color: #333D79FF;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 80px;
+    margin: 0 auto;
+}
+
+button {
+    color: #FAEBEFFF;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cursive
+}
+
+#rollbtn {
+    background-color: #333D79FF;
+}
+
+#resetbtn {
+    background-color: #333D79FF;
+}
+
+button:hover,
+button:focus {
+    outline: none;
+    box-shadow: -1px 1px 10px 10px rgba(99, 78, 138, 0.75);
+}
+
+#resetbtn {
+    display: none;
+}
+
+.active {
+    box-shadow: -1px 1px 10px 10px rgba(99, 78, 138, 0.75);
+}
